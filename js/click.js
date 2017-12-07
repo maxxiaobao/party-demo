@@ -38,8 +38,7 @@
           "+1",
           "666",
           "New Office",
-          "Welcome"
-          ;
+          "Welcome"]
         window.requestAnimationFrame = (function(){
             return window.requestAnimationFrame ||
                 window.webkitRequestAnimationFrame ||
