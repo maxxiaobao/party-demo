@@ -38,11 +38,14 @@
     <h1>tititit</h1>
     <h1>tititit</h1>
     <h1>tititit</h1>
-<script src="https://cdn.bootcss.com/jquery/3.3.1/core.js"></script>
+<script
+  src="https://code.jquery.com/jquery-3.3.1.min.js"
+  integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+  crossorigin="anonymous"></script>
     <script type="text/script">
       var close = true
-      const button = document.getElementById('disabled')
-      button && button.addEventListener('click', function(){
+      var button = document.getElementById('disabled')
+      button.addEventListener('click', function(){
         if(close){
             $('body').on('touchmove', function(event) {
                     event.preventDefault
